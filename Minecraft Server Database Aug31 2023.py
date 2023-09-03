@@ -1,3 +1,4 @@
+
 import turtle
 import time
 import math
@@ -199,9 +200,71 @@ def test_aug31():
     print(gunpowder_aug31_inflate)
     print(tnt_aug31_inflate)
     print(gold_aug31_deflate)
-    
 
+
+
+test0001 = 0
+testfailsafe0001 = 1
+outdated = 0
 
 def test_sep7():
     wars
-    
+
+
+
+
+def test_outdate1():
+    if test0001 == 0:
+        if testfailsafe0001 == 0:
+            print("hi")
+        else:
+            print("this command is only availiable for administrators")
+
+
+
+
+test0002 = 0
+testfailsafe0002 = 1
+
+def test_authorization():
+    if test0002 == 0:
+        if testfailsafe0002 == 0:
+            test0002_2 = input("test lol?")
+            if test0002_2 == "a":
+                print("SUCCESS")
+        else:
+            print("this command is only avaliable for administrators")
+
+
+
+
+
+test0003 = 0
+testfailsafe0003 = 1
+
+def test_authorization1():
+    if test0003 == 0:
+        if testfailsafe0003 == 0:
+            test0003_3 = input("test lol?")
+            if test0003_3 == "a" or "A":
+                print("SUCCESS")
+        else:
+            print("this command is only avaliable for administrators")
+
+
+
+
+
+if outdated == 1:
+    win = turtle.Screen()
+    win.title("Outdated")
+    win.bgcolor("white")
+    win.setup(width=600, height=400)
+    score = turtle.Turtle()
+    score.speed(0)
+    score.color("black")
+    score.penup()
+    score.hideturtle()
+    score.goto(0, 170)
+    score.write("This Python Script Is Most Likely Outdated.' ", align="center", font=("Arial", 15, "normal"))
+
