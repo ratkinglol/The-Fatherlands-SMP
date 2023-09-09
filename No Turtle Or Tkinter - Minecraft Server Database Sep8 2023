@@ -1,9 +1,6 @@
-import turtle
 import time
 import math
 import subprocess
-import tkinter as tk
-from tkinter import filedialog
 import webbrowser
 
 
