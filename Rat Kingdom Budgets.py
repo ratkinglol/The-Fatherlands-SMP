@@ -98,5 +98,5 @@ win.bgcolor("white")
 win.setup(width=600, height=400)
 score = turtle.Turtle()
 score.speed(0), score.color("black"), score.penup(), score.hideturtle(), score.goto(0, 170), score.write("To navigate the database use the command 'help()' ", align="center", font=("Arial", 15, "normal"))
-
+turtle.Screen().exitonclick()
 
