@@ -267,4 +267,4 @@ if outdated == 1:
     score.hideturtle()
     score.goto(0, 170)
     score.write("This Python Script Is Most Likely Outdated.' ", align="center", font=("Arial", 15, "normal"))
-
+    turtle.Screen().exitonclick()
