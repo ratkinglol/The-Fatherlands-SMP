@@ -326,7 +326,7 @@ def test_aug31():
 
 test0001 = 0
 testfailsafe0001 = 1
-outdated = 0
+outdated = 1
 
 def test_sep7():
     wars
